@@ -34,3 +34,4 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 document.querySelector("#cartButton").addEventListener("click", () => {
   alert(cartCount ? `Your cart contains ${cartCount} item(s). Checkout will be added next.` : "Your cart is empty.");
 });
+));
